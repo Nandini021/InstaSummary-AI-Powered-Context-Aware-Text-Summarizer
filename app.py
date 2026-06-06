@@ -1,5 +1,5 @@
 # ============================================================
-#   INSTASUMMARY
+#                   INSTASUMMARY
 # ============================================================
 import re, os, json, math, tempfile, logging, threading, time, datetime, random as _rnd
 from collections import Counter
@@ -26,7 +26,7 @@ for _p in ["punkt","punkt_tab","stopwords","averaged_perceptron_tagger",
 logger.info("Imports OK")
 
 # ──────────────────────────────────────────────────────────────
-#  STAR GENERATOR — full viewport 1920×1080
+#  STAR GENERATOR 
 # ──────────────────────────────────────────────────────────────
 
 def _star_css(n, mx=1920, my=1080, min_op=0.2, max_op=0.9):
@@ -2419,7 +2419,7 @@ def fb_text(kind):
 
 
 # ════════════════════════════════════════════════════════════
-#  CSS — UNCHANGED
+#  CSS 
 # ════════════════════════════════════════════════════════════
 _CSS_STATIC = """
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans:wght@400;700&family=Noto+Sans+Telugu:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&display=swap');
@@ -2959,7 +2959,7 @@ THEME = gr.themes.Base(
 )
 
 # ════════════════════════════════════════════════════════════
-#  BUILD UI — UNCHANGED
+#  BUILD UI 
 # ════════════════════════════════════════════════════════════
 with gr.Blocks(title="InstaSummary — AI Summarizer") as demo:
 
